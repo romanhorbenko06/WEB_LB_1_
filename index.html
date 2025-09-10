@@ -27,8 +27,18 @@
   <div class="block block3">
     <p>Це мій навчальний веб-сайт, створений у рамках лабораторної роботи.
       Тут ви знайдете інформацію про мене, мої навчальні проєкти.</p>
+
     <img src="https://img.choice.com.au/-/media/103b8205919f4742a976ab474af9cf6e.ashx?w=760" 
-         alt="Студент за ноутбуком" style="max-width:100%; border-radius:12px; margin-top:10px;">
+         alt="Студент за ноутбуком" 
+         style="max-width:100%; border-radius:12px; margin-top:10px;"
+         usemap="#student-map">
+
+    <map name="student-map">
+      <!-- Прямокутник (ноутбук) -->
+      <area shape="rect" coords="200,300,500,450" href="https://www.google.com" alt="Ноутбук" target="_blank">
+      <!-- Коло (голова студента) -->
+      <area shape="circle" coords="380,150,70" href="about.html" alt="Про мене">
+    </map>
   </div>
 
   <div class="block block4">
